@@ -16,9 +16,9 @@ export default class Index extends Component {
     navigationBarTitleText: '首页'
   }
 
-  state = {
-    name: '张三'
-  }
+  // state = {
+  //   name: '张三'
+  // }
 
   componentWillMount() { }
 
@@ -30,19 +30,19 @@ export default class Index extends Component {
 
   componentDidHide() { }
 
-  changName = () => {
-    this.setState({ name: '李四' })
-  }
+  // changName = () => {
+  //   this.setState({ name: '李四' })
+  // }
 
-  change = () => {
-    this.setState({ name: '李四2' })
-  }
+  // change = () => {
+  //   this.setState({ name: '李四2' })
+  // }
   render() {
     return (
       <View className='index'>
-        <Demo name={this.state.name} onChange={this.change} />
+        {/* <Demo name={this.state.name} onChange={this.change} />
         <Button onClick={this.changName}>点击改变名字</Button>
-        <Text>{this.state.name}</Text>
+        <Text>{this.state.name}</Text> */}
       </View>
     )
   }
