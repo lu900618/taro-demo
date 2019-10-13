@@ -1,7 +1,7 @@
 import Taro, { Component, Config } from '@tarojs/taro'
 import { View, Text, Button } from '@tarojs/components'
 import './index.less'
-import Demo from './child'
+import Head from '../../components/head/head'
 
 export default class Index extends Component {
 
@@ -40,9 +40,8 @@ export default class Index extends Component {
   render() {
     return (
       <View className='index'>
-        {/* <Demo name={this.state.name} onChange={this.change} />
-        <Button onClick={this.changName}>点击改变名字</Button>
-        <Text>{this.state.name}</Text> */}
+        <Head />
+        <Text>asd</Text>
       </View>
     )
   }
